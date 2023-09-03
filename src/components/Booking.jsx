@@ -5,20 +5,20 @@ const Booking = () => (
   <div>
     {/* Booking section */}
     <div className="container bg-white h-auto flex flex-col px-6">
-      <h2 className="flex gap-10 mt-[2%] self-center">
-        <ul className="flex gap-1 text-3xl">
+      <h2 className="flex flex-wrap lg:gap-10 md:gap-10 gap-4 mt-[2%] self-center">
+        <ul className="flex gap-1 lg:text-3xl text-lg">
           <li className="bg-orange-200 text-orange-500 px-3 rounded">B</li>
           <li className="bg-orange-200 text-orange-500 px-3 rounded">O</li>
           <li className="bg-orange-200 text-orange-500 px-3 rounded">O</li>
           <li className="bg-orange-200 text-orange-500 px-3 rounded">K</li>
         </ul>
-        <ul className="flex gap-1 text-3xl">
+        <ul className="flex gap-1 lg:text-3xl text-lg">
           <li className="bg-orange-200 text-orange-500 px-3 rounded">N</li>
           <li className="bg-orange-200 text-orange-500 px-3 rounded">O</li>
           <li className="bg-orange-200 text-orange-500 px-3 rounded">W</li>
         </ul>
       </h2>
-      <div className="grid grid-cols-2 mt-[3%]">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mt-[3%]">
         <div className="col-span-1">
           <form className="flex flex-col gap-4 mt-[6%] border border-solid border-gray-400 p-2 rounded-md">
             <label className="text-xl font-bold" htmlFor="destination">Destination</label>

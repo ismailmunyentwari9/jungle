@@ -43,7 +43,7 @@ const Footer = () => (
       <hr className="border-orange-500 w-5/6 mx-auto my-6" />
 
       {/* Footer sections */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:w-10/12 mx-auto mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/6 mx-auto mt-5">
         {/* Privacy Policy */}
         <div className="flex flex-col gap-1.5">
           <h4 className="font-medium text-lg leading-6 text-white">Privacy Policy</h4>
@@ -125,8 +125,8 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row items-center justify-between w-5/6 mx-auto mt-7 gap-12">
         {/* Logo */}
         <a href="#logo" className="lg:w-1/9 md:col-span-1">
-          <span className="text-orange-500 text-3xl">Jungle</span>
-          <span className="text-3xl text-white">Trail</span>
+          <span className="text-orange-500 lg:text-3xl text-lg">Jungle</span>
+          <span className="lg:text-3xl text-lg text-white">Trail</span>
         </a>
 
         {/* Contact information */}
@@ -135,7 +135,7 @@ const Footer = () => (
             <i className="fas fa-skiing-nordic text-orange-500" />
           </span>
           <span>
-            <p className="text-white font-medium leading-7 text-2xl">+250 785 837 748</p>
+            <p className="text-white font-medium leading-7 lg:text-2xl text-lg">+250 785 837 748</p>
           </span>
         </div>
 

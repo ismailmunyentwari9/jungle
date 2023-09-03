@@ -4,7 +4,7 @@ const Services = () => (
     {/* Services we provide */}
     <div className="container  flex flex-col justify-center">
       <h2 className="flex gap-5 mt-[2%]  justify-center">
-        <ul className="flex gap-1 text-3xl">
+        <ul className="flex flex-wrap gap-1 lg:text-3xl text-lg">
           <li className="bg-orange-200 text-orange-500 px-3  rounded">S</li>
           <li className="bg-orange-200 text-orange-500 px-3  rounded">E</li>
           <li className="bg-orange-200 text-orange-500 px-3  rounded">R</li>
@@ -15,7 +15,7 @@ const Services = () => (
           <li className="bg-orange-200 text-orange-500 px-3  rounded">S</li>
         </ul>
       </h2>
-      <div className="grid grid-cols-3 mx-auto w-5/6 gap-14 mt-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto w-5/6 gap-14 mt-5">
         {/* service 00_1 */}
         <div className="col-span-1 flex flex-col justify-center bg-white shadow-xl p-2 mt-4 shadow-gray-300 transform transition-transform hover:scale-105">
           <p className="flex justify-center">

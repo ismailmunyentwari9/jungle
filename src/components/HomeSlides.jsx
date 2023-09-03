@@ -10,7 +10,7 @@ const Slideshow = () => (
   <div className=" w-full">
     <div className="w-full">
       <div
-        className="w-full lg:h-[100vh] md:h-[0vh] bg-center bg-cover"
+        className="w-full h-[100vh] bg-center bg-cover"
       >
         <video
           autoPlay
@@ -23,12 +23,12 @@ const Slideshow = () => (
           <source src={Akagera} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="container mx-auto flex flex-col justify-center items-center lg:pt-[15%] md:pt-[10%]">
+        <div className="container mx-auto flex flex-col justify-center items-center pt-[15%]">
           <p className="lg:text-[45px] md:text-[25px] text-black font-bold text-center">
             {' '}
             ADVENTURE IS WOTHWHILE
           </p>
-          <p className="text-[15px] text-orange-800 font-bold w-1-/9 lg:w-1/3 mg:w-1/3 ">
+          <p className="lg:text-[20px] text-[15px] text-orange-800 font-bold lg:w-1/3 w-full   px-2">
             Discover New Places With Us, Where Every Journey Unveils a World of Excitement and Wonder. Embark on Adventures that Lead to Unforgettable Memories, and Embrace the Thrill of Exploring the Unknown. Your Next Epic Expedition Awaits, Ready to Ignite Your Passion for Discovery and Create Stories that Last a Lifetime.
           </p>
           <button

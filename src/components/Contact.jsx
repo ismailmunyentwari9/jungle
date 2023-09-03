@@ -4,7 +4,7 @@ import React from 'react';
 const Contact = () => (
   <div className="container mx-auto w-5/6 full my-10">
     <h2 className="flex gap-5 mt-[2%]  justify-center">
-      <ul className="flex gap-1 text-3xl">
+      <ul className="flex flex-wrap gap-1 lg:text-3xl text-lg">
         <li className="bg-orange-200 text-orange-500 px-3  rounded">C</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">O</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">C</li>

@@ -3,7 +3,7 @@ const Packages = () => (
   <div className="container bg-white h-auto flex flex-col px-6">
     {/* packages section */}
     <h2 className="flex gap-5 mt-[2%] self-center">
-      <ul className="flex gap-1 lg:text-3xl">
+      <ul className="flex flex-wrap gap-1 lg:text-3xl text-lg">
         <li className="bg-orange-200 text-orange-500 px-3  rounded">P</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">A</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">C</li>
@@ -14,7 +14,7 @@ const Packages = () => (
         <li className="bg-orange-200 text-orange-500 px-3  rounded">S</li>
       </ul>
     </h2>
-    <div className="grid grid-cols-3 gap-10 w-5/6 container mx-auto mt-[3%]">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 w-5/6 container mx-auto mt-[3%]">
       {/* packages cards 001 */}
       <div className="shadow p-4 cursor-pointer transform transition-transform hover:scale-105 col-span-1  hover:border-orange-500 border-2 group flex flex-col justify-between py-2 px-3 border-solid border-gray-300 bg-white rounded-lg mb-4">
         <div>

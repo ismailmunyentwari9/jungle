@@ -10,7 +10,7 @@ const GarellyImages = [
 const Garelly = () => (
   <div className="container w-5/6 mx-auto flex flex-col">
     <h2 className="flex gap-5 mt-[2%]  justify-center">
-      <ul className="flex gap-1 text-3xl">
+      <ul className="flex flex-wrap gap-1 lg:text-3xl text-lg">
         <li className="bg-orange-200 text-orange-500 px-3  rounded">G</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">A</li>
         <li className="bg-orange-200 text-orange-500 px-3  rounded">R</li>
@@ -22,7 +22,7 @@ const Garelly = () => (
       </ul>
 
     </h2>
-    <div className="grid grid-cols-3 gap-3 mt-6  ">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 mt-6  ">
       {GarellyImages.map((items) => (
         <div className="col-span-1 ">
           <img src={items.url} className="w-full h-full rounded-t-lg transform transition-transform hover:scale-105" alt="Garelly Icon" />
