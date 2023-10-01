@@ -27,24 +27,24 @@ const Packages = () => (
         <div className="flex flex-col group">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">1 Day Safari to Akagera national park</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            Akagera National Park has an inspiring
+            conservation story as it is
+            now home to the big five like
+            lions and rhinos, and is the only Big-five Park in the country.
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
             <i className="fas fa-star text-orange-500" />
-            <i className="far fa-star text-orange-500" />
-            <i className="far fa-star text-orange-500" />
+            <i className="fas fa-star text-orange-500" />
+            <i className="fas fa-star text-orange-500" />
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">from $250.00 per adult (price varies by group size)</span>
+            <span className="text-red-300 line-through ml-2">$50.00</span>
           </p>
           <button
             className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
@@ -67,13 +67,13 @@ const Packages = () => (
         <div className="flex flex-col">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">Kigali City Tour</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            Being the best and cleanest city in Africa,
+            touring Kigali will make you comfortable as
+            a way to kick off your visit to Rwanda and
+            most important experiencing the beauty of the entire country.
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
@@ -83,8 +83,8 @@ const Packages = () => (
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">$150</span>
+            <span className="text-red-300 line-through ml-2">$30.00</span>
           </p>
           <button
             className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
@@ -106,13 +106,15 @@ const Packages = () => (
         <div className="flex flex-col">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">6 Days Rwanda Wildlife Safari</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            Offers
+            the opportunity to trek gorillas and
+            golden monkeys at Volcanoes National
+            Park in Rwanda before adding a half-city
+            tour and one day in Akagera National Park
+            home to a big five
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
@@ -122,8 +124,8 @@ const Packages = () => (
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">$2,544.00</span>
+            <span className="text-red-300 ml-2 line-through">$120.00</span>
           </p>
           <button
             className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
@@ -142,16 +144,17 @@ const Packages = () => (
             alt="packages"
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-3">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">2 Days Gorilla Trekking Safari in Uganda via Kigali</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            Trek gorillas to Uganda’s Bwindi
+            Impenetrable Forest, from Kigali.
+            Ground transfers, meals, and gorilla
+            trekking permits are included, with
+            campsite stays within the park at an additional cost.
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
@@ -161,8 +164,8 @@ const Packages = () => (
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">$1, 600</span>
+            <span className="text-red-300 ml-2 line-through">$150</span>
           </p>
           <button
             className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
@@ -181,16 +184,16 @@ const Packages = () => (
             alt="packages"
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-4">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">3 days gorillas and golden monkeys trek Adventure</span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            Gorillas and golden monkeys tracking as
+            the prime adventure on this 3-day trip
+            to the Volcanoes National Park Volcanoes
+            National Park is Rwanda’s part of the Virunga Mountains .
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
@@ -200,8 +203,7 @@ const Packages = () => (
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">$2,350.00</span>
           </p>
           <button
             className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
@@ -220,16 +222,16 @@ const Packages = () => (
             alt="packages"
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-8">
           <p>
             <span className="fas fa-map-marker-alt text-orange-500 mr-2" />
-            <span className="text-xl font-bold">Akagera</span>
+            <span className="text-xl font-bold">2 Days Akagera Wildlife Safari Park </span>
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-            incidunt, ab recusandae a eligendi ipsa, maiores voluptatem
-            dolore quidem ullam, repellendus error ut deleniti facilis
-            voluptatibus rerum officiis cum nihil.
+            This is a unique experience of
+            facing wildlife and it is a lifetime
+            experience to see all the big five in their nurture
+            Our guides are really friendly and efficient.
           </p>
           <p>
             <i className="fas fa-star text-orange-500" />
@@ -239,11 +241,10 @@ const Packages = () => (
             <i className="far fa-star text-orange-500" />
           </p>
           <p>
-            <span className="text-lg font-bold">$90.00</span>
-            <span className="text-gray-300 line-through">$120.00</span>
+            <span className="text-lg font-bold">$920.00</span>
           </p>
           <button
-            className="bg-orange-500 self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
+            className="bg-orange-500  self-start text-white font-bold py-1 px-3 rounded-md hover:bg-orange-400 "
             type="submit"
           >
             Book Now
