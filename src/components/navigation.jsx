@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable max-len */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Logo from './assets/media/logo.jpeg';
@@ -7,7 +9,7 @@ const Nav = () => (
     <div className="container mx-auto  w-5/6 py-4  flex items-center justify-between md:gap-10">
       <div className="">
         <a href="#logo" className="lg:w-1/12 md:col-span-1">
-          <span className="text-orange-500 lg:text-3xl text-lg"><img src={Logo} alt="logo" className="w-[60px] h-[60px] rounded-full" /></span>
+          {/* <span className="text-orange-500 lg:text-3xl text-lg"><img src={Logo} alt="logo" className="w-[60px] h-[60px] rounded-full" /></span> */}
 
         </a>
       </div>
